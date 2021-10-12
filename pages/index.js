@@ -5,9 +5,11 @@ import Sidebar from "./components/Sidebar/Sidebar";
 
 export default function Home() {
     return (
-        <div className="main-container">
-            <Sidebar />
-            <Content />
-        </div>
+         <div className="main-container">
+      <div className="main-wrapper">
+        <Sidebar />
+        <Content />
+      </div>
+    </div>
     );
 }
