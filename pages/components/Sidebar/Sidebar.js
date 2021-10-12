@@ -1,10 +1,31 @@
 const Sidebar = () => {
     return (
-        <div className="sidebar">
+        <nav className="sidebar">
             <div className="sidebar__wrapper">
-                <a href="/" className="sidebar__logo"></a>
+                <div className="sidebar__logo">
+                    <img src="/" />
+                </div>
+                <div className="sidebar__list">
+                    <ul>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Главная</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     );
 };
 
