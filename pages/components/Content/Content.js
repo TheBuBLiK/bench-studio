@@ -5,7 +5,7 @@ import Planning from "../Planning/Planning";
 
 const Content = () => {
   return (
-    <div>
+    <div className="content-container">
       <Main />
       <Moscow36 />
       <Planning />
