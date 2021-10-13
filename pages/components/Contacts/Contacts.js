@@ -1,6 +1,6 @@
 const Contacts = () => {
     return (
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <div className="contacts__wpapper">
                 <div className="contacts__up">
                     <p className="contacts__deserve">Вы этого заслуживаете!</p>
