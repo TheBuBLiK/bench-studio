@@ -1,19 +1,15 @@
 import Contacts from "../Contacts/Contacts";
-import Features from "../Features/Features";
 import Main from "../Main/Main";
-import Moscow36 from "../Moscow36/Moscow36";
-import Planning from "../Planning/Planning";
+import About from "../About/About";
 
 const Content = () => {
-    return (
-        <div className="content-container">
-            <Main />
-            <Moscow36 />
-            <Planning />
-            <Features />
-            <Contacts />
-        </div>
-    );
+  return (
+    <div className="content-container">
+      <Main />
+      <About />
+      <Contacts />
+    </div>
+  );
 };
 
 export default Content;
