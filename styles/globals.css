@@ -66,6 +66,15 @@ a {
     position: relative;
     margin-right: 75px;
 }
+.sidebar_fixed{
+    position: absolute;
+}
+.sidebar__logo{
+    width: 98px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 105px;
+}
 
 .sidebar__wrapper {
     position: fixed;
