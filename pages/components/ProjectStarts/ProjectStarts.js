@@ -1,6 +1,6 @@
 const ProjectStarts = () => {
     return (
-        <div>
+        <div className="">
             <h2>Modern technologies for innovative solutions</h2>
         </div>
     );
