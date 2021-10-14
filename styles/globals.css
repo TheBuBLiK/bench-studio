@@ -7,6 +7,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -24,55 +28,85 @@ a {
   color: #626262;
 }
 
-.main-container {
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  background-color: #000;
-}
-
-/* ======================================
-============ Sidebar starts =============
-=======================================*/
-
-.sidebar {
-  height: 100vh;
-  background-color: #000;
-  width: 30%;
-}
-
-.gold {
-  color: rgb(175, 134, 58);
-}
-
-.grey {
-  color: #626262;
-}
-
 .white {
   color: white;
 }
 
 .main-container {
-  width: 1200px;
-  margin: 0;
+  margin: 0 auto;
+  display: flex;
+  background-color: #232325;
+  justify-content: space-between;
 }
 
 .main-wrapper {
-  width: 75%;
   display: flex;
   margin: 0 auto;
+  width: 1200px;
 }
 
-.content-container {
-  width: 100%;
+/* FIRST BLOCK STARTS */
+
+.first-block-bg {
+  background-image: url("../images/Rectangle\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
 }
+
+/* FIRST BLOCK ENDS */
+
+/* SIDEBAR STARTS */
+
+.sidebar {
+  height: 100vh;
+  width: 30%;
+  color: #fff;
+  position: relative;
+  margin-right: 75px;
+}
+
+.sidebar__wrapper {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar__list ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__list ul li {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* Временно */
+
+.sidebar__list ul li:not(:first-child) {
+  opacity: 0.6;
+}
+
+/* SIDEBAR ENDS */
 
 /* MAIN STARTS */
 
 .main__container {
-  width: 1000px;
-  height: 800px;
+  height: 600px;
   background-size: cover;
   background-image: url("https://thumb.tildacdn.com/tild3330-6161-4334-b263-666530333436/-/format/webp/main_pic.jpg");
 }
@@ -135,3 +169,32 @@ a {
 }
 
 /* MAIN ENDS */
+
+/* QUERY STARTS */
+
+@media (min-width: 768px) {
+  .main-wrapper {
+    width: 750px;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-wrapper {
+    width: 970px;
+  }
+  .sidebar {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-wrapper {
+    width: 1170px;
+  }
+  .sidebar {
+    display: block;
+  }
+}
