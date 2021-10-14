@@ -1,34 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .gold {
-    color: rgb(175, 134, 58);
+  color: rgb(175, 134, 58);
 }
 
 .grey {
-    color: #626262;
+  color: #626262;
 }
 
 .main-container {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    background-color: #000;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #000;
 }
 
 /* ======================================
@@ -36,9 +36,9 @@ a {
 =======================================*/
 
 .sidebar {
-    height: 100vh;
-    background-color: #000;
-    width: 30%;
+  height: 100vh;
+  background-color: #000;
+  width: 30%;
 }
 
 .gold {
@@ -71,7 +71,8 @@ a {
 /* MAIN STARTS */
 
 .main__container {
-  height: 600px;
+  width: 1000px;
+  height: 800px;
   background-size: cover;
   background-image: url("https://thumb.tildacdn.com/tild3330-6161-4334-b263-666530333436/-/format/webp/main_pic.jpg");
 }
