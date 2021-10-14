@@ -1,4 +1,4 @@
-import asd from "../../../public/LOGO.svg";
+import asd from "../../../images/LOGO.svg";
 const Sidebar = () => {
     return (
         <nav className="sidebar">
