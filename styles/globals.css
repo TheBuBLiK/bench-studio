@@ -38,7 +38,7 @@ a {
 .main-wrapper {
     display: flex;
     margin: 0 auto;
-    max-width: 1320px;
+    max-width: 1130px;
     width: 100%;
 }
 
@@ -63,10 +63,10 @@ a {
     position: relative;
     margin-right: 75px;
 }
-.sidebar_fixed{
+.sidebar_fixed {
     position: absolute;
 }
-.sidebar__logo{
+.sidebar__logo {
     width: 98px;
     margin: 0 auto;
     padding-top: 64px;
