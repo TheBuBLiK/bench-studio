@@ -20,12 +20,8 @@ a {
   box-sizing: border-box;
 }
 
-.gold {
-  color: rgb(175, 134, 58);
-}
-
-.grey {
-  color: #626262;
+.red {
+  color: #c83b34;
 }
 
 .white {
@@ -103,72 +99,17 @@ a {
 
 /* SIDEBAR ENDS */
 
-/* MAIN STARTS */
+/* ABOUT STARTS */
 
-.main__container {
-  height: 600px;
-  background-size: cover;
-  background-image: url("https://thumb.tildacdn.com/tild3330-6161-4334-b263-666530333436/-/format/webp/main_pic.jpg");
+.about__container {
+  max-width: 871px;
 }
-.main__wrapper {
+
+.about__wrapper {
   display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.main__up {
-  width: 100%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.main__down {
-  width: 100%;
-  height: 10%;
-  text-align: center;
 }
 
-.main__down_text {
-  font-size: 16px;
-}
-
-.main__up_title {
-  font-size: 60px;
-  width: 500px;
-  margin: 0;
-  line-height: 70px;
-  font-family: "Vollkorn", serif;
-}
-
-.main__up_top {
-  font-size: 16px;
-  margin: 0;
-  display: flex;
-  height: 20px;
-  margin-bottom: 15px;
-}
-
-.main__up_bottom {
-  font-size: 18px;
-  width: 450px;
-  margin-top: 25px;
-}
-
-.main__up_wrapper {
-  margin-left: 60px;
-}
-
-.main__up_top img {
-  width: 25px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.main__up_top p {
-  margin: 0;
-}
-
-/* MAIN ENDS */
+/* ABOUT ENDS */
 
 /* QUERY STARTS */
 
