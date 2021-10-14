@@ -60,7 +60,6 @@ a {
   width: 30%;
   color: #fff;
   position: relative;
-  margin-right: 75px;
 }
 
 .sidebar__wrapper {
@@ -102,8 +101,8 @@ a {
 /* ABOUT STARTS */
 
 .about__container {
-  max-width: 871px;
   margin-top: 125px;
+  width: 871px;
 }
 
 .about__wrapper {
@@ -125,6 +124,7 @@ a {
 .about__img {
   width: 377px;
   height: 539px;
+  margin-top: 75px;
 }
 
 /* ABOUT ENDS */

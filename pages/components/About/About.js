@@ -14,8 +14,9 @@ const About = () => {
             <br /> Exercitation veniam consequat sunt nostrud amet.
           </div>
         </div>
-
-        <img src={a.png} alt="about" className="about__img" />
+        <div className="about__right">
+          <img src={a.src} alt="about" className="about__img" />
+        </div>
       </div>
     </div>
   );
