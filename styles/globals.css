@@ -102,11 +102,11 @@ a {
 
 .about__container {
   margin-top: 125px;
-  width: 871px;
 }
 
 .about__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about__title {
@@ -125,6 +125,7 @@ a {
   width: 377px;
   height: 539px;
   margin-top: 75px;
+  margin-left: 30px;
 }
 
 /* ABOUT ENDS */
