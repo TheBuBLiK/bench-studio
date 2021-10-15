@@ -1,73 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .red {
-  color: #c83b34;
+    color: #c83b34;
 }
 
 .white {
-  color: white;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .main-container {
-  margin: 0 auto;
-  display: flex;
-  background-color: #232325;
-  justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    background-color: #232325;
+    justify-content: space-between;
 }
 
 .main-wrapper {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .block-title {
-  font-size: 64px;
-  text-align: center;
-  margin: 0;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
 }
 
 .inblock-title {
-  font-size: 36px;
-  margin: 0;
-  max-width: 415px;
+    font-size: 36px;
+    margin: 0;
+    max-width: 415px;
 }
 
 .inblock-text {
-  font-size: 24px;
-  margin: 0;
-  max-width: 415px;
+    font-size: 24px;
+    margin: 0;
+    max-width: 415px;
 }
 
 /* FIRST BLOCK STARTS */
 
 .first-block-bg {
-  background-image: url("../images/Rectangle\ 1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-position: center center; */
-  /* background-attachment: fixed; */
+    background-image: url("../images/Rectangle\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
 }
 
 /* FIRST BLOCK ENDS */
@@ -75,54 +84,54 @@ a {
 /* SIDEBAR STARTS */
 
 .sidebar {
-  height: 100vh;
-  width: 30%;
-  color: #fff;
-  position: relative;
-  margin-right: 75px;
+    height: 100vh;
+    width: 30%;
+    color: #fff;
+    position: relative;
+    margin-right: 75px;
 }
 .sidebar_fixed {
-  position: absolute;
+    position: absolute;
 }
 .sidebar__logo {
-  width: 98px;
-  margin: 0 auto;
-  padding-top: 64px;
-  padding-bottom: 105px;
+    width: 98px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 105px;
 }
 
 .sidebar__wrapper {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-  height: 100%;
-  width: 20%;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .sidebar__list ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar__list ul li {
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 /* Временно */
 
 .sidebar__list ul li:not(:first-child) {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 /* SIDEBAR ENDS */
@@ -130,61 +139,203 @@ a {
 /* ABOUT STARTS */
 
 .about__container {
-  margin-top: 125px;
+    margin-top: 125px;
 }
 
 .about__wrapper {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about__title {
-  font-size: 64px;
+    font-size: 64px;
 }
 
 .about__text {
-  font-size: 24px;
-  line-height: 39.03px;
-  width: 394px;
-  font-family: "Open Sans", sans-serif;
-  margin-top: 69px;
+    font-size: 24px;
+    line-height: 39.03px;
+    width: 394px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 69px;
 }
 
 .about__img {
-  width: 377px;
-  height: 539px;
-  margin-top: 75px;
-  margin-left: 30px;
+    width: 377px;
+    height: 539px;
+    margin-top: 75px;
+    margin-left: 30px;
 }
 
 /* ABOUT ENDS */
 
+/* PROJECT-START STARTS */
+
+.project-start {
+    margin-bottom: 120px;
+}
+
+.project-start__title {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-start__table {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-start__item {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    max-width: 180px;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    font-size: 18px;
+    max-height: 80px;
+    height: 100%;
+    display: inline-block;
+}
+
+.project-start__item::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 15px;
+    top: 22px;
+}
+
+.python::before {
+    background-image: url("../images/python\ 1.png");
+}
+
+.docker::before {
+    background-image: url("../images/kisspng-docker-github-node-js-mongodb-computer-software-5b0a34af5cf459.png");
+}
+
+/* PROJECT-START ENDS */
+
+/* SERVICRS START */
+
+.services {
+    background-image: url("../images/LOGO.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 235px;
+}
+
+.services__item {
+    max-width: 350px;
+    margin: 40px 0 0 0;
+}
+
+.services h2 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.services__title {
+    font-size: 36px;
+    margin-bottom: 32px;
+    margin: 0 0 32px 0;
+}
+
+.services__desc {
+    font-size: 24px;
+    line-height: 158.14%;
+    max-height: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* SERVICES END */
+
+/* PORTFOLIO STARTS */
+
+/* PORTFOLIO ENDS */
+
+/* CONTACTS STARTS */
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts__title {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts__item {
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.contacts__logo {
+    width: 20%;
+    margin-top: 25px;
+}
+
+.contacts__desc {
+    width: 80%;
+}
+
+.contacts__title_mini {
+    font-size: 48px;
+    margin: 0 0 15px 0;
+}
+
+.contacts__info {
+    font-size: 24px;
+    opacity: 0.6;
+    margin: 0;
+}
+
+.contacts__info:nth-child(2) {
+    margin: 0 0 24px 0;
+}
+
+/* CONTACTS ENDS */
 /* VALUES STARTS */
 
 .val__container {
-  margin-top: 201px;
+    margin-top: 201px;
 }
 
 .val__wrapper {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .val__content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .val__blocks {
-  width: 395px;
-  margin: 20px 20px;
-  text-align: center;
+    width: 395px;
+    margin: 20px 20px;
+    text-align: center;
 }
 
 .val__blocks_title {
-  margin: 24px 0;
+    margin: 24px 0;
 }
 
 /* VALUES ENDS */
@@ -192,36 +343,36 @@ a {
 /* PROJECT START STARTS */
 
 .project__container {
-  margin-top: 181px;
+    margin-top: 181px;
 }
 
 .project__wrapper {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .project__bottom {
-  margin-top: 72px;
-  display: flex;
+    margin-top: 72px;
+    display: flex;
 }
 
 .project__right {
-  position: absolute;
-  right: 0;
-  margin-top: 100px;
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
 }
 
 .project__blocks_title {
-  margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .project__blocks_text {
-  margin-bottom: 64px;
+    margin-bottom: 64px;
 }
 
 .project__img {
-  width: 500px;
-  height: 600px;
+    width: 500px;
+    height: 600px;
 }
 
 /* PROJECT START ENDS */
@@ -229,28 +380,50 @@ a {
 /* QUERY STARTS */
 
 @media (max-width: 1200px) {
-  .main-wrapper {
-    max-width: 1140px;
-  }
+    .main-wrapper {
+        max-width: 1140px;
+    }
 }
 
 @media (max-width: 992px) {
-  .main-wrapper {
-    max-width: 960px;
-  }
+    .main-wrapper {
+        max-width: 960px;
+    }
 }
 
 @media (max-width: 768px) {
-  .main-wrapper {
-    max-width: 720px;
-  }
-  .sidebar {
-    display: none;
-  }
+    .main-wrapper {
+        max-width: 720px;
+    }
+    .sidebar {
+        display: none;
+    }
+
+    .services h2 {
+        margin-bottom: 50px;
+    }
+    .services__row {
+        text-align: center;
+    }
+    .services__title {
+        margin-bottom: 20px;
+    }
+    .services__item {
+        margin: 40px auto;
+    }
+
+    .contacts__item {
+        margin: 40px auto;
+    }
+    .contacts__title {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 576px) {
-  .main-wrapper {
-    max-width: 540px;
-  }
+    .main-wrapper {
+        max-width: 540px;
+    }
 }
+
+/* Если честно, то я никогда не участвовал на олимпиадах по программированию, т.к. недавно начал этим увлекаться, но у меня есть хорошие знания ЯП JS и его нескольких фреймворков (React.js, Next.js), также я начал брать заказы от реальных заказчиков на создание SPA. Я готов учиться и я считаю, что я добюсь больших успехов в этой сфере. */
