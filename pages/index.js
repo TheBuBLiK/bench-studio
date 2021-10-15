@@ -6,15 +6,15 @@ import React from "react";
 import FirstBlock from "./components/Blocks/FirstBlock";
 
 export default function Home() {
-    return (
-        <>
-            <FirstBlock />
-            <div className="main-container">
-                <div className="main-wrapper">
-                    <Sidebar />
-                    <Content />
-                </div>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <FirstBlock />
+      <div className="main-container">
+        <div className="main-wrapper">
+          <Sidebar />
+          <Content />
+        </div>
+      </div>
+    </>
+  );
 }

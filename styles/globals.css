@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 html,
 body {
     padding: 0;
@@ -47,8 +47,26 @@ a {
 .main-wrapper {
     display: flex;
     margin: 0 auto;
-    max-width: 1130px;
+    max-width: 1200px;
     width: 100%;
+}
+
+.block-title {
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+}
+
+.inblock-title {
+    font-size: 36px;
+    margin: 0;
+    max-width: 415px;
+}
+
+.inblock-text {
+    font-size: 24px;
+    margin: 0;
+    max-width: 415px;
 }
 
 /* FIRST BLOCK STARTS */
@@ -121,11 +139,31 @@ a {
 /* ABOUT STARTS */
 
 .about__container {
-    max-width: 871px;
+    margin-top: 125px;
 }
 
 .about__wrapper {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.about__title {
+    font-size: 64px;
+}
+
+.about__text {
+    font-size: 24px;
+    line-height: 39.03px;
+    width: 394px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 69px;
+}
+
+.about__img {
+    width: 377px;
+    height: 539px;
+    margin-top: 75px;
+    margin-left: 30px;
 }
 
 /* ABOUT ENDS */
@@ -272,6 +310,72 @@ a {
 }
 
 /* CONTACTS ENDS */
+/* VALUES STARTS */
+
+.val__container {
+    margin-top: 201px;
+}
+
+.val__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.val__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.val__blocks {
+    width: 395px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.val__blocks_title {
+    margin: 24px 0;
+}
+
+/* VALUES ENDS */
+
+/* PROJECT START STARTS */
+
+.project__container {
+    margin-top: 181px;
+}
+
+.project__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__bottom {
+    margin-top: 72px;
+    display: flex;
+}
+
+.project__right {
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
+}
+
+.project__blocks_title {
+    margin-bottom: 32px;
+}
+
+.project__blocks_text {
+    margin-bottom: 64px;
+}
+
+.project__img {
+    width: 500px;
+    height: 600px;
+}
+
+/* PROJECT START ENDS */
 
 /* QUERY STARTS */
 
