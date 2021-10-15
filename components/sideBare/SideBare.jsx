@@ -1,13 +1,19 @@
 import React from 'react';
 import logo from "../../images/LOGO.png"
+import telegram from "../../images/Vector.png"
+import whatsApp from "../../images/wh.png"
+import faceBook from "../../images/fb.png"
 
 const SideBare = () => {
+
     return (
         <div className="sideBare">
 
             <div className="sideBare_wrapper">
 
-                <img className="sideBare_logo" src={logo.src} alt="logo" />
+                <div className="logo">
+                    <img className="sideBare_logo" src={logo.src} alt="logo" />
+                </div>
 
                 <nav className="nav">
 
@@ -23,9 +29,17 @@ const SideBare = () => {
 
                 <div className="contacts">
 
-                    <img src="" alt="telegram" />
-                    <img src="" alt="whatsApp" />
-                    <img src="" alt="FaceBook" />
+                    <a href="">
+                        <img className="sideBare_contacts" src={telegram.src} alt="telegram" />
+                    </a>
+
+                    <a href="">
+                        <img className="sideBare_contacts" src={whatsApp.src} alt="whatsApp" />
+                    </a>
+
+                    <a href="">
+                        <img className="sideBare_contacts" src={faceBook.src} alt="FaceBook" />
+                    </a>
 
                 </div>
 
