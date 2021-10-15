@@ -1,15 +1,16 @@
 import About from "../About/About";
-import Contacts from "../Contacts/Contacts";
+import Values from "../Values/Values";
 import ProjectStarts from "../ProjectStarts/ProjectStarts";
 
 const Content = () => {
-    return (
-        <div className="content-container">
-            <About />
-            <Contacts />
-            <ProjectStarts />
-        </div>
-    );
+  return (
+    <div className="content-container">
+      <About />
+      <Values />
+      <ProjectStarts />
+      <Contacts />
+    </div>
+  );
 };
 
 export default Content;
