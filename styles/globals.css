@@ -28,6 +28,15 @@ a {
     color: white;
 }
 
+.row {
+    display: flex;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .main-container {
     margin: 0 auto;
     display: flex;
@@ -121,6 +130,149 @@ a {
 
 /* ABOUT ENDS */
 
+/* PROJECT-START STARTS */
+
+.project-start {
+    margin-bottom: 120px;
+}
+
+.project-start__title {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-start__table {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-start__item {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    max-width: 180px;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    font-size: 18px;
+    max-height: 80px;
+    height: 100%;
+    display: inline-block;
+}
+
+.project-start__item::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 15px;
+    top: 22px;
+}
+
+.python::before {
+    background-image: url("../images/python\ 1.png");
+}
+
+.docker::before {
+    background-image: url("../images/kisspng-docker-github-node-js-mongodb-computer-software-5b0a34af5cf459.png");
+}
+
+/* PROJECT-START ENDS */
+
+/* SERVICRS START */
+
+.services {
+    background-image: url("../images/LOGO.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 235px;
+}
+
+.services__item {
+    max-width: 350px;
+    margin: 40px 0 0 0;
+}
+
+.services h2 {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.services__title {
+    font-size: 36px;
+    margin-bottom: 32px;
+    margin: 0 0 32px 0;
+}
+
+.services__desc {
+    font-size: 24px;
+    line-height: 158.14%;
+    max-height: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* SERVICES END */
+
+/* PORTFOLIO STARTS */
+
+/* PORTFOLIO ENDS */
+
+/* CONTACTS STARTS */
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts__title {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 100px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts__item {
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.contacts__logo {
+    width: 20%;
+    margin-top: 25px;
+}
+
+.contacts__desc {
+    width: 80%;
+}
+
+.contacts__title_mini {
+    font-size: 48px;
+    margin: 0 0 15px 0;
+}
+
+.contacts__info {
+    font-size: 24px;
+    opacity: 0.6;
+    margin: 0;
+}
+
+.contacts__info:nth-child(2) {
+    margin: 0 0 24px 0;
+}
+
+/* CONTACTS ENDS */
+
 /* QUERY STARTS */
 
 @media (max-width: 1200px) {
@@ -142,6 +294,26 @@ a {
     .sidebar {
         display: none;
     }
+
+    .services h2 {
+        margin-bottom: 50px;
+    }
+    .services__row {
+        text-align: center;
+    }
+    .services__title {
+        margin-bottom: 20px;
+    }
+    .services__item {
+        margin: 40px auto;
+    }
+
+    .contacts__item {
+        margin: 40px auto;
+    }
+    .contacts__title {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -149,3 +321,5 @@ a {
         max-width: 540px;
     }
 }
+
+/* Если честно, то я никогда не участвовал на олимпиадах по программированию, т.к. недавно начал этим увлекаться, но у меня есть хорошие знания ЯП JS и его нескольких фреймворков (React.js, Next.js), также я начал брать заказы от реальных заказчиков на создание SPA. Я готов учиться и я считаю, что я добюсь больших успехов в этой сфере. */

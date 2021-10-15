@@ -1,13 +1,15 @@
 import About from "../About/About";
 import Contacts from "../Contacts/Contacts";
-import ProjectStarts from "../ProjectStarts/ProjectStarts";
+import Modern from "../Modern/Modern";
+import Services from "../Services/Services";
 
 const Content = () => {
     return (
         <div className="content-container">
             <About />
+            <Modern />
+            <Services />
             <Contacts />
-            <ProjectStarts />
         </div>
     );
 };
