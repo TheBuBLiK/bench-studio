@@ -58,10 +58,10 @@ a {
 .sideBare_logo {
     width: 98px;
     height: 74px;
-    margin-bottom: 105px;
 }
 
 .logo{
+    margin:0 auto 105px;
     width: 98px;
     height: 74px;
     display: flex;
