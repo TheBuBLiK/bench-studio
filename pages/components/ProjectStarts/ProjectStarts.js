@@ -1,3 +1,4 @@
+
 import comp from "../../../images/projectimg.svg";
 const ProjectStarts = () => {
   return (
@@ -43,6 +44,7 @@ const ProjectStarts = () => {
       </div>
     </div>
   );
+
 };
 
 export default ProjectStarts;

@@ -1,4 +1,3 @@
-import Contacts from "../Contacts/Contacts";
 import About from "../About/About";
 import Values from "../Values/Values";
 import ProjectStarts from "../ProjectStarts/ProjectStarts";
